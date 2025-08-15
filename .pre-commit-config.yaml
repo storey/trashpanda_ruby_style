@@ -1,10 +1,5 @@
 repos:
-  - repo: local
+  - repo: https://github.com/storey/trashpanda_ruby_style
+    rev: 4525dfd77a986987fe6cb820fa40357c96b91ebd
     hooks:
       - id: rubocop
-        name: rubocop
-        description: Enforce the community Ruby Style Guide with RuboCop
-        entry: rubocop
-        language: ruby
-        types: ['ruby']
-        args: ['--autocorrect', '--force-exclusion', '-c', '.rubocop.yml']

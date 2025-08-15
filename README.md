@@ -43,3 +43,7 @@ https://github.com/storey/trashpanda_ruby_style, though I don't expect to be mon
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## TODO
+1. Get version tagging working, update .pre-commit-config.yaml to use a specific version.
+2. Get prettier set up to run on the repo
